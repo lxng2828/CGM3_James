@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ Facebook - Giản lược</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+
+        body {
+            height: 100vh;
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "nav main aside"
+                "footer footer footer";
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        header {
+            background-color: #ffcccb;
+            grid-area: header;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header>h1 {
+            font-size: 6rem;
+            text-align: start;
+        }
+
+        nav {
+            background-color: #add8e6;
+            grid-area: nav;
+            padding: 1rem;
+        }
+
+        nav li {
+            font-size: 3rem;
+        }
+
+        main {
+            background-color: #f0e68c;
+            grid-area: main;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+            align-items: center;
+        }
+
+        main>article {
+            width: 100%;
+            background-color: #eeebce;
+        }
+
+        main>article>p {
+            font-size: 1.5rem;
+        }
+
+        aside {
+            background-color: #e6e6fa;
+            grid-area: aside;
+            padding: 1rem;
+        }
+
+        footer {
+            background-color: #dcdcdc;
+            grid-area: footer;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Facebook</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Trang cá nhân</li>
+            <li>Bạn bè</li>
+            <li>Nhóm</li>
+            <li>Sự kiện</li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Bảng tin</h2>
+        </article>
+        <article>
+            <h3>bài viết của A1</h3>
+            <p>Nội dung bài viết...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa dolorum veritatis hic animi voluptate
+                quas velit sapiente repellendus, corrupti fuga facere! Quis ipsum molestias quaerat repudiandae aperiam!
+                Error, officia?</p>
+        </article>
+        <article>
+            <h3>bài viết của A2</h3>
+            <p>Nội dung bài viết...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa dolorum veritatis hic animi voluptate
+                quas velit sapiente repellendus, corrupti fuga facere! Quis ipsum molestias quaerat repudiandae aperiam!
+                Error, officia?</p>
+        </article>
+        <article>
+            <h3>bài viết của A3</h3>
+            <p>Nội dung bài viết...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa dolorum veritatis hic animi voluptate
+                quas velit sapiente repellendus, corrupti fuga facere! Quis ipsum molestias quaerat repudiandae aperiam!
+                Error, officia?</p>
+        </article>
+        <article>
+            <h3>bài viết của A5</h3>
+            <p>Nội dung bài viết...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa dolorum veritatis hic animi voluptate
+                quas velit sapiente repellendus, corrupti fuga facere! Quis ipsum molestias quaerat repudiandae aperiam!
+                Error, officia?</p>
+        </article>
+        <article>
+            <h3>bài viết của A6</h3>
+            <p>Nội dung bài viết...</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa dolorum veritatis hic animi voluptate
+                quas velit sapiente repellendus, corrupti fuga facere! Quis ipsum molestias quaerat repudiandae aperiam!
+                Error, officia?</p>
+        </article>
+    </main>
+
+    <aside>
+        <h2>Đề xuất</h2>
+        <p>Gợi ý bạn bè, trang, nhóm...</p>
+    </aside>
+
+    <footer>
+        2025 Meta
+    </footer>
+</body>
+
+</html>
