@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Doc Truyen Don Gian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+
+        .story-banner {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ccc;
+            margin-bottom: 20px;
+        }
+
+        .story-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 0.7em 0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            background-color: #495057;
+            border-radius: 4px;
+        }
+
+        .container {
+            width: 75%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .table-of-contents {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .table-of-contents h2 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+
+        .table-of-contents ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+            flex-wrap: wrap;
+        }
+
+        .table-of-contents ul li {
+            margin: 0 10px;
+        }
+
+        .table-of-contents h5 {
+            margin: 0;
+            font-size: 1em;
+            text-align: center;
+        }
+
+        .table-of-contents h5 a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .table-of-contents h5 a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+
+        .story-section {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ddd;
+        }
+
+        .story-section:last-child {
+            border-bottom: none;
+        }
+
+        .story-section h3 {
+            color: #28a745;
+            font-size: 1.5em;
+            margin-top: 0;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .story-section p {
+            text-indent: 1.5em;
+            text-align: justify;
+            margin-bottom: 1em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            background-color: #343a40;
+            color: white;
+            font-size: 0.85em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tuyen Tap Truyen Ngan Don Gian</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Gioi Thieu</a></li>
+            <li><a href="#muc-luc-chinh">Muc Luc</a></li>
+            <li><a href="#lien-he">Lien He</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+
+        <div class="table-of-contents" id="muc-luc-chinh">
+            <h2>Danh Sach Truyen</h2>
+            <ul>
+                <li>
+                    <h5><a href="#truyen-1">Truyen So 1</a></h5>
+                </li>
+                <li>
+                    <h5><a href="#truyen-2">Truyen So 2</a></h5>
+                </li>
+                <li>
+                    <h5><a href="#truyen-3">Truyen So 3</a></h5>
+                </li>
+                <li>
+                    <h5><a href="#truyen-4">Truyen So 4</a></h5>
+                </li>
+            </ul>
+        </div>
+
+        <div id="truyen-1" class="story-section">
+            <h3>Truyen So 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur, nunc id feugiat vehicula,
+                enim velit gravida risus, a dictum justo justo eget magna. Mauris scelerisque nec orci vel hendrerit.
+                Donec vel fermentum est. Ut in maximus odio. Proin id velit a erat rhoncus vestibulum. Ut et felis vitae
+                mi commodo vulputate non a elit. Donec quis dolor ac libero cursus pretium. Curabitur vel odio non
+                ligula volutpat facilisis.</p>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus eu nulla
+                sed enim facilisis cursus. Fusce nec efficitur turpis, vel volutpat sem. Sed sit amet lacus a ex
+                venenatis dignissim. Quisque sit amet arcu libero. Ut eu odio et libero tincidunt pulvinar. Nunc vitae
+                lectus vel orci efficitur gravida. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+        </div>
+
+        <div id="truyen-2" class="story-section">
+            <h3>Truyen So 2</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid
+                ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos
+                et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+                corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique
+                sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+        </div>
+
+        <div id="truyen-3" class="story-section">
+            <h3>Truyen So 3</h3>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat.</p>
+            <p>Curabitur pretium, libero et tempor lacinia, purus lectus pellentesque urna, id mattis quam erat sit amet
+                elit. Sed ac mauris nec elit convallis scelerisque. Fusce varius lacus non nisi tincidunt, vitae
+                bibendum dolor varius. Sed eu ex vel felis facilisis bibendum. Integer non justo vel mi lacinia
+                venenatis. Quisque a diam et elit finibus euismod. Proin scelerisque urna ut leo scelerisque, nec
+                tincidunt sem eleifend. Vestibulum scelerisque, odio sed consequat ultrices, magna purus bibendum lacus,
+                ut consectetur mi lorem sit amet nisl.</p>
+        </div>
+
+        <div id="truyen-4" class="story-section">
+            <h3>Truyen So 4</h3>
+            <p>Eget egestas purus viverra accumsan in nisl. Massa sapien faucibus et molestie ac feugiat sed lectus.
+                Nulla facilisi morbi tempus iaculis. Leo in vitae turpis massa sed elementum tempus. Tellus rutrum
+                tellus pellentesque eu tincidunt tortor aliquam. Purus sit amet volutpat consequat mauris nunc congue
+                nisi. Nunc id cursus metus aliquam eleifend mi. Scelerisque in dictum non consectetur a. Ullamcorper
+                velit sed ullamcorper morbi tincidunt ornare massa. Ac felis donec et odio pellentesque diam volutpat
+                commodo sed. Massa eget egestas purus viverra accumsan in nisl nisi.</p>
+            <p>Velit euismod in pellentesque massa placerat duis ultricies. Amet risus nullam eget felis eget. Nibh nisl
+                condimentum id venenatis a. Leo a diam sollicitudin tempor id eu nisl. Sed felis eget velit aliquet
+                sagittis. Tincidunt vitae semper quis lectus nulla at volutpat diam. Adipiscing commodo elit at
+                imperdiet dui accumsan sit. Convallis aenean et tortor at. Sed felis eget velit aliquet sagittis id
+                consectetur. Pellentesque eu tincidunt tortor aliquam. Et netus et malesuada fames ac turpis egestas
+                integer eget.</p>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
