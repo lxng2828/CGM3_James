@@ -5,62 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tao_layout_voi_cac_the_html5_va_css</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: grid;
+            grid-template-rows: 100px 100px 1fr 1fr 100px;
+            grid-template-columns: 2fr 1fr;
+
+
+        }
+
+
+        body>* {
+            border: 1px solid black;
+            text-align: center;
+            line-height: 100px;
+        }
+
+
+        header {
+            grid-column: 1/3;
+            background-color: #FFD700;
+        }
+
+        nav {
+            grid-column: 1/3;
+            background-color: #87CEEB;
+        }
+
+        section {
+            grid-column: 1/2;
+            background-color: #98FB98;
+        }
+
+        article {
+            grid-column: 1/2;
+            background-color: #FFB6C1;
+        }
+
+        aside {
+            grid-column: 2/3;
+            grid-row: 3/5;
+            background-color: #D3D3D3;
+        }
+
+        footer {
+            grid-column: 1/3;
+            background-color: #FFA07A;
+        }
+    </style>
 
 </head>
 
-<body class="container-fluid">
-    <header class="row">
-        <nav class="bg-secondary text-light">
-            <ul class="d-flex justify-content-around my-auto">
-                <li>Logo</li>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+<body>
+    <header>
+        header
     </header>
-    <div class="row">
-        <aside class="col-md-2 bg-light">
-            <ul>
-                <li><a href="#"></a>Link</li>
-                <li><a href="#"></a>Link</li>
-                <li><a href="#"></a>Link</li>
-            </ul>
-        </aside>
-        <main class="col-md-8">
-            <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ut voluptates exercitationem quidem
-                molestias voluptas aspernatur, molestiae soluta, praesentium autem eligendi reiciendis ducimus a?
-                Reprehenderit maiores nostrum numquam. Animi id officiis ipsam a tempore repellendus cumque quae optio,
-                perferendis ullam numquam ea itaque dolorum doloremque, eum aut officia ad enim temporibus quia atque
-                deserunt error. Optio debitis, ad vero et vel cum. Consequuntur, recusandae illo, distinctio sapiente
-                suscipit eius, nulla minus ducimus deleniti quos molestias corporis earum blanditiis amet tempore
-                molestiae
-                culpa veritatis provident delectus dolorem! Unde rem voluptatibus quis velit voluptate. Atque, sit est
-                totam
-                harum consequuntur hic sequi.</p>
-            <h2>Test</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, sed architecto quaerat perspiciatis aut
-                corrupti.</p>
-        </main>
-        <aside class="col-md-2 bg-light">
-            <section class="bg-body-secondary d-flex justify-content-around align-items-center m-3"
-                style="height: 100px;">
-                <p>ADS</p>
-            </section>
-            <section class="bg-body-secondary d-flex justify-content-around align-items-center m-3"
-                style="height: 100px;">
-                <p>ADS</p>
-            </section>
-
-        </aside>
-    </div>
-    <footer class="row text-center bg-secondary">
-        <h3 class="text-light fs-1">Footer Text</h3>
+    <nav>
+        nav
+    </nav>
+    <section>
+        section
+    </section>
+    <article>
+        article
+    </article>
+    <aside>
+        aside
+    </aside>
+    <footer>
+        footer
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
